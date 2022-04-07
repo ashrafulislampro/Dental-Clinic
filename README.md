@@ -1,6 +1,6 @@
 # Dental Clinic 🦷 <h1>
 
-[Click here to visit the site](https://assignment-10-15dd2.web.app/)
+[Click here to visit the site](https://dental-clinic-1a8c1.web.app)
 
 - This is a website about **Dental Services**.
 - You can visit the **Services** and **Dentist** page when you are signed in.
