@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import image from "../../../../Images/Form/Secure login-bro.svg";
 import { Col, Form, Row } from "react-bootstrap";
-import { Link, useHistory, useLocation } from "react-router-dom";
 import { useForm } from "react-hook-form";
+import { Link, useHistory, useLocation } from "react-router-dom";
 import useAll from "../../../../hooks/useAll";
+import image from "../../../../Images/Form/Secure login-bro.svg";
 import popupError from "../../../../popup/popupError";
 import popupSuccess from "../../../../popup/popupSuccess";
 
@@ -139,12 +139,7 @@ const Signin = () => {
             >
               <i class="fab fa-facebook"></i>
             </button>
-            <button
-              className="btn-social"
-              onClick={() => handleSignInWithSocial(twitterProvider)}
-            >
-              <i class="fab fa-twitter"></i>
-            </button>
+            
           </div>
 
           <small className="text-center d-block">

@@ -1,9 +1,9 @@
 import React from "react";
-import image from "../../../../Images/Form/Mobile login-bro.svg";
 import { Col, Form, Row } from "react-bootstrap";
-import { Link } from "react-router-dom";
 import { useForm } from "react-hook-form";
+import { Link } from "react-router-dom";
 import useAll from "../../../../hooks/useAll";
+import image from "../../../../Images/Form/Mobile login-bro.svg";
 
 const Signup = () => {
   const { firebase } = useAll();
@@ -124,12 +124,7 @@ const Signup = () => {
             >
               <i class="fab fa-facebook"></i>
             </button>
-            <button
-              className="btn-social"
-              onClick={() => signInWithSocialAccount(twitterProvider)}
-            >
-              <i class="fab fa-twitter"></i>
-            </button>
+            
           </div>
 
           <small className="text-center d-block">

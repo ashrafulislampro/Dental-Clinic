@@ -1,11 +1,11 @@
 //firebase config
 const firebaseConfig = {
-  apiKey: "AIzaSyCcqTJ9aCHbAm_HARCoJ9FzIVBemY28y1c",
-  authDomain: "assignment-10-15dd2.firebaseapp.com",
-  projectId: "assignment-10-15dd2",
-  storageBucket: "assignment-10-15dd2.appspot.com",
-  messagingSenderId: "740977987627",
-  appId: "1:740977987627:web:454b90adeaecf630175a6e",
+  apiKey: "AIzaSyBc7QSP6xGtyj3O-pG4JozNuwqX2I_buxQ",
+  authDomain: "dental-clinic-1a8c1.firebaseapp.com",
+  projectId: "dental-clinic-1a8c1",
+  storageBucket: "dental-clinic-1a8c1.appspot.com",
+  messagingSenderId: "508973081292",
+  appId: "1:508973081292:web:8fc07b52f8736590365869"
 };
 
 export default firebaseConfig;
